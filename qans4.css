@@ -1,0 +1,72 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.container-1{ 
+    margin: 50px;
+    border: 2px solid whitesmoke;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+.container-2{
+    margin: 50px;
+    border: 2px solid rgb(5, 5, 66);
+    padding: 50px;
+    background-color: rgb(5, 5, 66);
+    color: white;
+    border-radius: 7px;
+   
+}
+
+.container-3{
+    margin: 50px;
+    border: 2px solid whitesmoke;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    
+}
+.card-text{
+    padding: 0;
+}
+.price{
+    padding: 10px;
+    font-size: 40px;
+}
+ul{
+    padding: 10px;
+}
+li{
+    padding: 5px;
+    list-style: none;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 65px;
+padding: 10px;
+padding-left: 24px;
+    padding-right: 24px;
+    font-family:  Verdana;
+
+}
+.btn-btn-primary{
+    background-color: rgb(5, 5, 66);
+    color: white;
+   
+}
+i{
+    padding: 5px;
+    font-size: 20px;
+}
